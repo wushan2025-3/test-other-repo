@@ -1,0 +1,12 @@
+{
+  "name": "test-other-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "零依赖的纯 HTML 静态项目",
+  "scripts": {
+    "build": "node -e \"const fs = require('node:fs'); fs.mkdirSync('dist', { recursive: true }); fs.copyFileSync('index.html', 'dist/index.html'); console.log('构建完成：dist/index.html');\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
