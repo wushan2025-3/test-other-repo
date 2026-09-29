@@ -1,0 +1,6 @@
+{
+  "name": "test-other-repo",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "assetsDirectory": "dist"
+}
